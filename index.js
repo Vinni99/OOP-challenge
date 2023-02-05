@@ -1,9 +1,10 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateHTML = require('./src/generateHtmlPage');
+const generateHTML = require('./src/generateHTML');
 const Manager = require('./lib/Manager');
 const Intern = require('./lib/Intern');
 const Engineer = require('./lib/Engineer');
+const Employee = require('./lib/Employee');
 
 // Class containing all questions
 class Prompt{
@@ -218,11 +219,11 @@ questions() {
 
         } else if (employeeType === 'I finished entering my team info') {
             //function that writes the html file in the dist folder
-            const pagehtml = generateHTML(this.getTeamArray());
-            fs.writeFile('./dist/index.html', pagehtml, err => {
+            const pageHtml = generateHTML(this.getTeamArray());
+            fs.writeFile('./dist/index.html', pageHtml, err => {
                 if (err) throw new Error(err);
 
-                console.log('Page created! Check out index.html in the dist/ folder to see it!');
+                console.log('hello');
             });
         }
     });
