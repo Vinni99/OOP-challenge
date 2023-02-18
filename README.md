@@ -1,4 +1,5 @@
 # oop-challenge
+
 Team Profile Generator
 
 ## Description
@@ -6,7 +7,6 @@ Team Profile Generator
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
-
 
 ## Acceptance Criteria
 
@@ -28,14 +28,10 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
-
 ## Mock-Up
 
-[Alt text](10-object-oriented-programming-homework-demo.png)
-
+![Alt text](10-object-oriented-programming-homework-demo.png)
 
 GitHub link: <https://github.com/Vinni99/oop-challenge.git>
 
-Video link: 
-
-Website link:
+Video link: <https://drive.google.com/file/d/1oh3bvz6Wn6k4vZ-Vx4bAkN44zhVdtfEh/view>
